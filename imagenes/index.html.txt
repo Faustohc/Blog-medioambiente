@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Campus Verde - UNSA</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Rubik', sans-serif;
+    }
+    body {
+      background: #f8fafc;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(to right, #0f9d58, #34a853);
+      color: white;
+      padding: 3rem 1rem;
+      text-align: center;
+      animation: fadeInDown 1s ease-in-out;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    p.subtitle {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      background: #e0f7ea;
+      padding: 1rem;
+    }
+    nav a {
+      text-decoration: none;
+      color: #0f9d58;
+      font-weight: 600;
+      border: 2px solid transparent;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      border-color: #0f9d58;
+      background: #d0f0dc;
+    }
+    .section {
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+      animation: fadeInUp 1s ease-in-out;
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 2rem;
+      margin-bottom: 3rem;
+    }
+    .row img {
+  flex: 1 1 45%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  object-fit: cover;
+  }
+    .text-block {
+      flex: 1 1 45%;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 1rem;
+      background: #0f9d58;
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #0c7c46;
+    }
+ .video-responsive {
+  position: relative;
+  padding-bottom: 56.25%; /* proporción 16:9 */
+  height: 0;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.video-responsive video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+} 
+ </style>
+</head>
+<body>
+  <header>
+    <h1>El Medio Ambiente en el Campus Universitario</h1>
+    <p class="subtitle">Un compromiso verde desde las aulas 🌱</p>
+  </header>
+
+  <nav>
+    <a href="#intro">Introducción</a>
+    <a href="#acciones">Acciones Ecológicas</a>
+    <a href="#educacion">Educación Ambiental</a>
+    <a href="#unsa">UNSA Sostenible</a>
+  </nav>
+
+  <section class="section" id="intro">
+    <div class="row">
+      <div class="text-block">
+        <h2>📝 Introducción</h2>
+        <p>
+          El campus universitario es mucho más que un conjunto de aulas y oficinas: es un ecosistema vivo donde conviven miles de personas a diario. Por eso, es clave que las universidades se conviertan en espacios conscientes del medio ambiente, promoviendo un estilo de vida más sostenible y responsable con el entorno.
+        </p>
+        <a class="btn" href="#acciones">Ver acciones ecológicas</a>
+      </div>
+      <img src="imagenes/ambiente1.jpg" alt="Campus Verde">
+    </div>
+  </section>
+
+  <section class="section card" id="acciones">
+    <div class="row">
+      <img src="imagenes/ambiente2.jpg" alt="Estudiante con botella reutilizable">
+      <div class="text-block">
+        <h2>🌿 ¿Qué puedes hacer como estudiante?</h2>
+        <ul>
+          <li>✅ Llevar tu botella reutilizable y evitar envases de un solo uso</li>
+          <li>✅ Separar los residuos correctamente</li>
+          <li>✅ Participar en brigadas ecológicas</li>
+          <li>✅ Cuidar las áreas verdes y no pisar el césped señalizado</li>
+          <li>✅ Ahorrar agua en los baños y lavamanos</li>
+          <li>✅ Denunciar puntos de contaminación dentro del campus</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section card" id="unsa">
+    <h2>🏫 UNSA Sostenible</h2>
+    <p>La Universidad Nacional de San Agustín cuenta con múltiples iniciativas:</p>
+    <ul>
+      <li>🌎 Programa de reciclaje universitario</li>
+      <li>🚲 Estacionamientos para bicicletas</li>
+      <li>💧 Uso eficiente del agua potable</li>
+      <li>🌱 Proyectos con estudiantes de ingeniería ambiental</li>
+    </ul>
+  </section>
+  <section class="section card">
+    <h2>🎙 Escucha nuestro Podcast Ambiental</h2>
+    <audio controls>
+      <source src="AQUI_VA_EL_ARCHIVO_MP3" type="audio/mpeg">
+      Tu navegador no soporta audio HTML5.
+    </audio>
+  </section>
+
+  <section class="section card">
+    <h2>🎬 Video informativo</h2>
+    <div class="video-responsive">
+    <video controls>
+  <source src="Video medio ambiente.mp4" type="video/mp4">
+   </video>
+  </div>  
+ </section>
+  <section class="section card">
+    <h2>📍 Ubicación del campus</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3826.4520790707736!2d-71.54446892584023!3d-16.405731984352225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424a69d114f9b1%3A0xfbd5de06e3f45c5a!2sUniversidad%20Nacional%20de%20San%20Agust%C3%ADn%20de%20Arequipa%20(UNSA)!5e0!3m2!1ses!2spe!4v1620296791340!5m2!1ses!2spe" width="100%" height="450" allowfullscreen="" loading="lazy"></iframe>
+  </section>
+  <section class="section card">
+    <h2>🔗 Páginas relacionadas</h2>
+    <p><a class="btn" href="https://www.unsa.edu.pe" target="_blank">Web Oficial de la UNSA</a></p>
+    <p><a class="btn" href="https://www.gob.pe/minam" target="_blank">Ministerio del Ambiente</a></p>
+    <p><a class="btn" href="https://www.sernanp.gob.pe" target="_blank">Áreas Naturales Protegidas</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Escuela Profesional de Ciencias de la Comunicación - Relaciones Públicas - UNSA</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compromiso Ambiental Universitario</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+    body {
+      background: #f8f9fa;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(90deg, #2e7d32, #66bb6a);
+      color: white;
+      padding: 3rem 1rem;
+      text-align: center;
+      animation: fadeInDown 1s ease-out;
+    }
+    header h1 {
+      font-size: 2.8rem;
+    }
+    nav {
+      background: #e8f5e9;
+      padding: 1rem;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    nav a {
+      color: #2e7d32;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #1b5e20;
+    }
+    section {
+      padding: 2rem;
+      animation: fadeInUp 1s ease-out;
+    }
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      align-items: center;
+      margin-bottom: 3rem;
+    }
+    .row img {
+      width: 45%;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .text {
+      flex: 1;
+    }
+    .text h2 {
+      color: #2e7d32;
+      margin-bottom: 1rem;
+    }
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      margin-bottom: 2rem;
+    }
+    .btn {
+      display: inline-block;
+      padding: 0.6rem 1.2rem;
+      background: #43a047;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      margin-top: 1rem;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #2e7d32;
+    }
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Compromiso Ambiental Universitario</h1>
+    <p>Construyendo un futuro verde desde nuestras aulas</p>
+  </header>
+
+  <nav>
+    <a href="#introduccion">Inicio</a>
+    <a href="#acciones">Acciones</a>
+    <a href="#educacion">Educación Ambiental</a>
+    <a href="#voluntariado">Voluntariado</a>
+  </nav>
+
+  <section id="introduccion">
+    <div class="row">
+      <div class="text">
+        <h2>🌍 Introducción</h2>
+        <p>El campus universitario es mucho más que aulas y oficinas; es un ecosistema donde la sostenibilidad debe ser parte fundamental del día a día. Promover una cultura ecológica desde la universidad es el primer paso hacia un futuro más verde.</p>
+        <a class="btn" href="#acciones">Conoce más</a>
+      </div>
+      <img src="https://images.unsplash.com/photo-1505842465776-3b4953ca4f1e" alt="Campus sostenible">
+    </div>
+  </section>
+
+  <section id="acciones">
+    <div class="row">
+      <img src="https://images.unsplash.com/photo-1581093588401-1e7e8e6f1dcd" alt="Acciones ecológicas">
+      <div class="text">
+        <h2>🌱 Acciones Ecológicas</h2>
+        <ul>
+          <li>Usa botellas reutilizables</li>
+          <li>Separa correctamente los residuos</li>
+          <li>Participa en brigadas ecológicas</li>
+          <li>Cuidar las áreas verdes del campus</li>
+          <li>Denuncia puntos de contaminación</li>
+        </ul>
+        <a class="btn" href="#voluntariado">Únete al cambio</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="educacion">
+    <div class="card">
+      <h2>📚 Educación Ambiental</h2>
+      <p>Incorporar temas ecológicos en las asignaturas universitarias ayuda a construir profesionales con una sólida ética ambiental. Además, talleres y actividades prácticas fomentan el aprendizaje activo fuera del aula.</p>
+    </div>
+  </section>
+
+  <section id="voluntariado">
+    <div class="card">
+      <h2>🤝 Voluntariado Ambiental</h2>
+      <p>Los estudiantes pueden impulsar acciones significativas desde sus carreras: campañas de reciclaje, limpiezas colectivas, reforestaciones o proyectos de compostaje.</p>
+      <a class="btn" href="#">Ver oportunidades</a>
+    </div>
+  </section>
+ <section class="card">
+    <h3>📍 Mapa de ubicación de la UNSA</h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3826.4520790707736!2d-71.54446892584023!3d-16.405731984352225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424a69d114f9b1%3A0xfbd5de06e3f45c5a!2sUniversidad%20Nacional%20de%20San%20Agust%C3%ADn%20de%20Arequipa%20(UNSA)!5e0!3m2!1ses!2spe!4v1620296791340!5m2!1ses!2spe" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+
+  <section class="card">
+    <h3>🎙 Podcast Ambiental</h3>
+    <audio controls>
+      <source src="podcast-ejemplo.mp3" type="audio/mpeg">
+      Tu navegador no soporta audio HTML5.
+    </audio>
+  </section>
+
+  <section class="card">
+    <h3>🎥 Video educativo</h3>
+    <video controls>
+      <source src="video-ejemplo.mp4" type="video/mp4">
+      Tu navegador no soporta video HTML5.
+    </video>
+  </section>
+
+  <section class="card">
+    <h3>🌐 Páginas de interés</h3>
+    <p><a class="btn" href="https://www.unsa.edu.pe" target="_blank">Web Oficial de la UNSA</a></p>
+    <p><a class="btn" href="https://www.gob.pe/minam" target="_blank">Ministerio del Ambiente - Perú</a></p>
+    <p><a class="btn" href="#">Más información sobre sostenibilidad</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Escuela Profesional de Ciencias de la Comunicación - Relaciones Públicas - UNSA</p>
+  </footer>
+</body>
+</html>
